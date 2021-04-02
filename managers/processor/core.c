@@ -64,9 +64,9 @@ static int procmgmt(void *unused)
 #endif
 
 #if 1
-	init_filename = "/usr/bin/python";
+	init_filename = "/users/Francis/data/mysql_install/bin/mysqld";
 	argv_init[0] = init_filename;
-	argv_init[1] = "/users/Francis/test.py";
+	argv_init[1] = "--defaults-file=/users/Francis/my.cnf";
 #endif
 
 	/*
