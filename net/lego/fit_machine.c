@@ -39,15 +39,15 @@ struct fit_machine_info *lego_cluster[CONFIG_FIT_NR_NODES];
  * raw numbers.
  */
 static const char *lego_cluster_hostnames[CONFIG_FIT_NR_NODES] = {
-	[0]	=	"node-0",
-	[1]	=	"node-1",
+	[0]	=	"c0",
+	[1]	=	"c1",
 	[2]	=	"node-2",
 };
 
 static struct fit_machine_info WUKLAB_CLUSTER[] = {
-	[0]	= {	.hostname =	"node-0",	.lid =	3,	},
-	[1]	= {	.hostname =	"node-1",	.lid =	10,	},
-	[2]	= {	.hostname =	"node-2",	.lid =	17,	},
+	[0]	= {	.hostname =	"node-0",	.lid =	135,	},
+	[1]	= {	.hostname =	"node-1",	.lid =	104,	},
+	[2]	= {	.hostname =	"node-2",	.lid =	113,	},
 };
 
 /* Indicate machines that are used by lego */
